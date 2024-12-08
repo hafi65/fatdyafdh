@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>error detection</title>
+</head>
+<body>
+    <p id="error.message"></p>
+    <script>
+        try{
+var x = 40;
+var y = 50;
+ document.write("the value of sum is :"  + x%y + "<br>");
+ document.write("the value of sum2 is :"  + x-y*z + "<br>");
+        }catch (error) { 
+            document.write("an error occurred:" + error.message  + "<br>");
+        
+        }
+        document.write("the program continues.....");
+    </script>
+</body>
+</html>
